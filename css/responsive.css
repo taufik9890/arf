@@ -5,6 +5,18 @@
 
 
 @media(min-width:992px) and (max-width:1199px) {
+    .main_menu .navbar-nav .nav-item .nav-link {
+        font-size: 13px;
+        padding: 0 5px;
+    }
+
+    .main_menu {
+        top: 0px;
+    }
+
+    .main_text ul li {
+        width: 19.42%;
+    }
 
     /*====================================
              Classes Part Start 
@@ -45,7 +57,7 @@
     /*=====================================
                  Menu Part End
     ====================================== */
-    .main_menu .navbar-nav .nav-item .nav-link {
+    /* .main_menu .navbar-nav .nav-item .nav-link {
         font-size: 13px;
         padding: 0 5px;
     }
@@ -56,6 +68,43 @@
 
     .main_text ul li {
         width: 19.42%;
+    } */
+    .main_menu {
+        margin-top: 0px;
+        top: 0px;
+        background: rgb(255, 192, 0);
+    }
+
+    .main_menu .navbar-brand {
+        width: 170px;
+        height: 50px;
+        background: #07000E;
+
+    }
+
+    .main_menu .navbar-brand img {
+        margin-top: -1px;
+    }
+
+    .main_menu button:focus {
+        outline: 0;
+    }
+
+    .main_menu button i {
+        color: #fff;
+    }
+
+    .main_menu .navbar-nav {
+        background: #FFC000;
+        text-align: center;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        line-height: 40px;
+    }
+
+    .menu_fix {
+        background: rgba(255, 191, 0, 0.5);
     }
 
     /*=====================================
@@ -142,12 +191,14 @@
     .main_menu {
         margin-top: 0px;
         top: 0px;
-        background: #FFC000;
+        background: rgb(255, 192, 0);
     }
 
     .main_menu .navbar-brand {
         width: 170px;
         height: 50px;
+        background: #07000E;
+
     }
 
     .main_menu .navbar-brand img {
@@ -174,6 +225,10 @@
     .menu_fix {
         background: rgba(255, 191, 0, 0.5);
     }
+    /* .menu_fix .navbar-brand {
+        background: #07000E;
+        height: 50px;
+    } */
 
     .class_menu li .nav-link:nth-child(1),
     .class_menu li .nav-link:nth-child(2),
@@ -308,6 +363,12 @@
     #team_part {
         padding: 40px 0;
     }
+    #pricing_part {
+        padding: 40px 0;
+    }
+    #strip {
+        padding: 40px 0;
+    }
 
     /*========================================
                  Team Part End 
@@ -386,9 +447,12 @@
         background: #FFC000;
     }
 
+    
     .main_menu .navbar-brand {
         width: 170px;
         height: 50px;
+        background: #07000E;
+
     }
 
     .main_menu .navbar-brand img {
@@ -552,6 +616,12 @@
                  Team Part Start 
     =========================================*/
     #team_part {
+        padding: 40px 0;
+    }
+    #pricing_part {
+        padding: 40px 0;
+    }
+    #strip {
         padding: 40px 0;
     }
 
